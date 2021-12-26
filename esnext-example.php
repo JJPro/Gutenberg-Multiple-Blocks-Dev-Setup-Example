@@ -21,7 +21,7 @@
  * @see https://developer.wordpress.org/block-editor/how-to-guides/block-tutorial/writing-your-first-block-type/
  */
 function create_block_esnext_example_block_init() {
-	$block_paths = glob(__DIR__ . '/inc/blocks/*');
+	$block_paths = glob(__DIR__ . '/inc/gutenberg/blocks/*');
 	array_walk($block_paths, fn($block_path) => register_block_type($block_path));
 }
 add_action( 'init', 'create_block_esnext_example_block_init' );

@@ -11,7 +11,7 @@
 		"html": false
 	},
 	"textdomain": "second-block",
-	"editorScript": "file:../../../build/second-block.js",
-	"editorStyle": "file:../../../build/second-block.css",
-	"style": "file:../../../build/style-second-block.css"
+	"editorScript": "file:../../../../build/second-block.js",
+	"editorStyle": "file:../../../../build/second-block.css",
+	"style": "file:../../../../build/style-second-block.css"
 }
