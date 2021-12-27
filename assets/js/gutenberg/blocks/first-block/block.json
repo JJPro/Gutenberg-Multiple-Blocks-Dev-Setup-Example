@@ -1,17 +1,17 @@
 {
 	"$schema": "https://json.schemastore.org/block.json",
 	"apiVersion": 2,
-	"name": "create-block/second-block",
+	"name": "create-block/first-block",
 	"version": "0.1.0",
-	"title": "Second Block",
+	"title": "First Block",
 	"category": "widgets",
 	"icon": "smiley",
 	"description": "Example block written with ESNext standard and JSX support – build step required.",
 	"supports": {
 		"html": false
 	},
-	"textdomain": "second-block",
-	"editorScript": "file:../../../../build/second-block.js",
-	"editorStyle": "file:../../../../build/second-block.css",
-	"style": "file:../../../../build/style-second-block.css"
+	"textdomain": "first-block",
+	"editorScript": "file:../../../../../build/first-block.js",
+	"editorStyle": "file:../../../../../build/first-block.css",
+	"style": "file:../../../../../build/style-first-block.css"
 }
